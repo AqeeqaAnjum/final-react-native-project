@@ -1,0 +1,20 @@
+import React from "react";
+import { View, Text, Switch } from "react-native";
+
+export default function SettingsScreen() {
+  return (
+    <View style={{ padding: 20 }}>
+      <Text>Settings</Text>
+
+      <View>
+        <Text>Enable Notifications</Text>
+        <Switch />
+      </View>
+
+      <View>
+        <Text>Dark Mode</Text>
+        <Switch />
+      </View>
+    </View>
+  );
+}
